@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEOBStarfieldTextureReplacer", "TEOBStarfieldTextureReplacer.csproj", "{4C8E76A3-99DF-495F-B0FC-6AADB3E4C858}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridViewAnim", "..\GIT Workspace\DataGridViewBuffered\DataGridViewAnim.csproj", "{8DAE7AA8-1BC7-4952-8C32-682AB67E9D40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C8E76A3-99DF-495F-B0FC-6AADB3E4C858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C8E76A3-99DF-495F-B0FC-6AADB3E4C858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C8E76A3-99DF-495F-B0FC-6AADB3E4C858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C8E76A3-99DF-495F-B0FC-6AADB3E4C858}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DAE7AA8-1BC7-4952-8C32-682AB67E9D40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DAE7AA8-1BC7-4952-8C32-682AB67E9D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DAE7AA8-1BC7-4952-8C32-682AB67E9D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DAE7AA8-1BC7-4952-8C32-682AB67E9D40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBBA2673-F9DA-4310-9A14-3613FC1FCC6E}
+	EndGlobalSection
+EndGlobal
