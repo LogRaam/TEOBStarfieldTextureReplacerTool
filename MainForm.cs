@@ -52,7 +52,7 @@ namespace TEOBStarfieldTextureReplacer
       {
          var source = RetrieveTextureFolder() + "\\" + "eye_sclera_opacity.dds";
          var gameDir = new DirectoryInfo(txtTextureDirectory.Text);
-         var dest = new FileInfo(gameDir.FullName + "eye_sclera_opacity.dds");
+         var dest = new FileInfo(gameDir.FullName + "\\eye_sclera_opacity.dds");
 
          File.Copy(source, dest.FullName, true);
       }
@@ -89,7 +89,7 @@ namespace TEOBStarfieldTextureReplacer
          }
 
 
-         var originTextureFile = new FileInfo(gameDir.FullName + originTextureName);
+         var originTextureFile = new FileInfo(gameDir.FullName +"\\" + originTextureName);
 
          if (originTextureFile.Exists) originTextureFile.Delete();
 
